@@ -15,7 +15,7 @@ public class LoginPageTest extends BaseClass {
 		loginpage.verifyUserLogin(ProfileData.getDataByKey("username"),
 				ProfileData.getDataByKey("password"));
 		loginpage.clickOnLoginBtn();
-		
+		//Girigowda is written this testcase
 		
 		boolean dashboard = loginpage.dashboardDispaly();
 		Assert.assertTrue(dashboard,"HomePage is displayed");
